@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/wagtail_flags-{{ version }}.tar.gz
   sha256: f8139be3cd4dd2cfc96fd2157cbe8d7e8f042af2df4c331d7629663e23b8d710
 
 build:
