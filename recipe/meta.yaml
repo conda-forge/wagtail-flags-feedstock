@@ -17,11 +17,11 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - setuptools >=43.0.0
-    - wheel
+    - setuptools >=63
+    - setuptools-scm >=8
     - pip
   run:
-    - python >={{ python_min }}
+    - python >={{ python_min }},<4.0
     - wagtail >6
     - django-flags >5
 
@@ -39,6 +39,7 @@ about:
   home: https://github.com/cfpb/wagtail-flags
   license: CC0-1.0
   license_file: LICENSE
+  dev_url: https://github.com/cfpb/wagtail-flags
 
 extra:
   recipe-maintainers:
