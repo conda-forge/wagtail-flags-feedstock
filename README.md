@@ -9,6 +9,8 @@ Package license: CC0-1.0
 
 Summary: Feature flags for Wagtail sites
 
+Development: https://github.com/cfpb/wagtail-flags
+
 Current build status
 ====================
 
